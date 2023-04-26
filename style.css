@@ -6,14 +6,15 @@ h1{
     font-size: 50px;
 }
 h2{
-    font-size: 40px;
+    font-size: 20px;
 }
 .color{
     color: yellow;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
+    padding-left: 50px;
 }
 .half-width img{
     width: 50%;
@@ -41,4 +42,26 @@ section{
 }
 .para{
     padding-right: 20%;
+}
+.experience-box{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-item{
+    
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 50px;
+    padding-left: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-stack-developer{
+    border-left: 10px solid tomato;
+}
+#baby-developing-project{
+    border-left: 10px solid blue;
+}
+footer{
+    text-align: center;
 }
